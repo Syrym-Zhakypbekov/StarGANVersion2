@@ -1,0 +1,28 @@
+{
+    "num_mels": 80,
+    "arch_type": "conv",
+    "loss_type": "wgan",
+    "zdim": 16,
+    "hdim": 64,
+    "mdim": 32,
+    "sdim": 16,
+    "w_adv": 1.0,
+    "w_grad": 1.0,
+    "w_cls": 1.0,
+    "w_cyc": 1.0,
+    "w_rec": 1.0,
+    "lrate_g": 0.0005,
+    "lrate_d": 5e-06,
+    "gradient_clip": 1.0,
+    "normtype": "IN",
+    "epochs": 2000,
+    "BatchSize": 12,
+    "n_spk": 4,
+    "spk_list": [
+        "spk_1",
+        "spk_2",
+        "spk_3",
+        "spk_4"
+    ],
+    "src_conditioning": false
+}

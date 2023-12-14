@@ -19,8 +19,8 @@ from extract_features import logmelfilterbank
 
 import sys
 sys.path.append(os.path.abspath("pwg"))
-from pwg.parallel_wavegan.utils import load_model
-from pwg.parallel_wavegan.utils import read_hdf5
+from parallel_wavegan.utils import load_model
+from parallel_wavegan.utils import read_hdf5
 
 def audio_transform(wav_filepath, scaler, kwargs, device):
 

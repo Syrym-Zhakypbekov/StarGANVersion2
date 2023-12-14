@@ -13,7 +13,7 @@
 #     -e: Experiment name (e.g., "exp1")
 
 # Default values
-db_dir="/path/to/dataset/training"
+db_dir="/workspaces/StarGAN-VC/dataset/training"
 dataset_name="mydataset"
 gpu=0
 arch_type="conv"
